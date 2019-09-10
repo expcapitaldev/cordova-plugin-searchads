@@ -14,7 +14,7 @@
     <asset src="www/SearchAds.js" target="js/SearchAds.js" />
 
     <js-module src="www/SearchAds.js" name="SearchAds">
-        <clobbers target="SearchAds" />
+        <clobbers target="cordova.plugins.searchAds" />
     </js-module>
 
     <platform name="ios">
